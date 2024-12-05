@@ -1,0 +1,35 @@
+my_fastapi_project/
+│
+├── app/
+│   ├── main.py                # Arquivo principal, inicializa a aplicação FastAPI
+│   ├── api/                   # Camada de Roteamento (EndPoints)
+│   │   ├── __init__.py
+│   │   ├── items.py           # Rotas para o gerenciamento de itens
+│   │   └── users.py           # Rotas para o gerenciamento de usuários
+│   │
+│   ├── core/                  # Configurações gerais da aplicação
+│   │   ├── __init__.py
+│   │   ├── config.py          # Arquivo de configurações (ex. variáveis de ambiente, db URL)
+│   │   └── security.py        # Funções relacionadas à segurança (autenticação, autorização)
+│   │
+│   ├── models/                # Camada de Modelos (ORM ou Pydantic)
+│   │   ├── __init__.py
+│   │   ├── item.py            # Definição do modelo Item (SQLAlchemy ou Pydantic)
+│   │   └── user.py            # Definição do modelo User (SQLAlchemy ou Pydantic)
+│   │
+│   ├── repositories/          # Camada de Acesso a Dados (Banco de dados, API externa, etc.)
+│   │   ├── __init__.py
+│   │   ├── item_repository.py # Funções para acessar dados de itens no banco
+│   │   └── user_repository.py # Funções para acessar dados de usuários no banco
+│   │
+│   ├── services/              # Camada de Lógica de Negócios (Business Logic)
+│   │   ├── __init__.py
+│   │   ├── item_service.py    # Lógica de negócios relacionada a itens
+│   │   └── user_service.py    # Lógica de negócios relacionada a usuários
+│   │
+│   ├── tests/                 # Testes automatizados
+│   │   ├── __init__.py
+│   │   ├── test_items.py      # Testes relacionados aos itens
+│   │   └── test_users.py      # Testes relacionados aos usuários
+│   │
+└── requirements.txt  
