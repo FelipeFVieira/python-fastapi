@@ -2,7 +2,7 @@ import smtplib
 import os
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-
+from app.core.config import settings
 class Utils:
 
     @staticmethod
@@ -10,7 +10,7 @@ class Utils:
 
         template: MIMEMultipart = MIMEMultipart()
         
-        template['From'] = os.getenv('SENDER_EMAIL')
+        template['From'] = settings.sender_email
         template['To'] = recipient_email
         template['Subject'] = "Linus Torvalds"
         
@@ -55,7 +55,7 @@ class Utils:
 
         template: MIMEMultipart = MIMEMultipart()
         
-        template['From'] = os.getenv('SENDER_EMAIL')
+        template['From'] = settings.sender_email
         template['To'] = recipient_email
         template['Subject'] = "Linus Torvalds"
         
@@ -126,7 +126,7 @@ class Utils:
 
         template: MIMEMultipart = MIMEMultipart()
         
-        template['From'] = os.getenv('SENDER_EMAIL')
+        template['From'] = settings.sender_email
         template['To'] = recipient_email
         template['Subject'] = "Linus Torvalds"
         
