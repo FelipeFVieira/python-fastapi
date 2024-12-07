@@ -2,9 +2,9 @@ from pydantic import BaseModel
 from enum import Enum
 
 class TemplateEnum(str, Enum):
-    academy = "academy"
-    linux_creation = "linux_creation"
-    torvalds_biography = "torvalds_biography"
+    academy: str = "academy"
+    linux_creation: str = "linux_creation"
+    torvalds_biography: str = "torvalds_biography"
 
 class UserInfo(BaseModel):
     recipient_name: str

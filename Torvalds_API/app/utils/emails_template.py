@@ -17,13 +17,13 @@ class Utils:
         template_body: str = f"""
         <html>
             <body>
-                <h1>Hello!, {recipient_name}!</h1>
+                <h1>Hello, {recipient_name}!</h1>
                 <br /><br />
                 <p style="padding: 12px; border-left: 4px solid #d0d0d0;">
                 Linus Benedict Torvalds was born in Helsinki, Finland, on December 28, 1969. In 1988, he enrolled at the University of Helsinki to study Computer Science. This university was a pivotal choice due to its strong emphasis on technology and research, providing Linus with a solid foundation in programming and operating systems.
                 <br /><br />
                 During his undergraduate studies, Linus developed a keen interest in the Unix operating system, widely used in academic settings but accessible only on specific and costly platforms. To deepen his understanding, he experimented with Minix, an educational operating system, which later inspired the creation of the Linux kernel.
-                br/><br />  
+                <br /><br />  
                 Linus completed his Computer Science degree in 1996. His thesis, titled Linux: A Portable Operating System, offered a detailed analysis of the project he had initiated during his university years. The thesis explored the technical challenges, the principles of portability, and the advantages of creating an open and modular operating system. This academic work was not only a milestone in his education but also a demonstration of how academic projects can achieve global significance.
                 <br /><br />
                 Although Linus’s influence extended far beyond academia, his time at the University of Helsinki was instrumental in shaping his perspective on software and technology. In recognition of his contributions, the university awarded him an honorary Doctor of Science degree in 2000, underscoring the importance of his academic foundation in his groundbreaking career. 
@@ -35,7 +35,7 @@ class Utils:
                 </div>
                 <br />
                 <p>This email is sent from TorvaldsAPI!.</p>
-                <a href="https://www.exemplo.com">Repository link: </a>
+                <a href="https://github.com/FelipeFVieira/python-fastapi">Repository link </a>
                 <p>Give a Star to Help Me!</p>
                 <p>Thanks!</p>
                 <br />
@@ -62,7 +62,7 @@ class Utils:
         template_body: str = f"""
         <html>
             <body>
-                <h1>Hello!, {recipient_name}!</h1>
+                <h1>Hello, {recipient_name}!</h1>
                 <br />
                 <p style="padding: 12px; border-left: 4px solid #d0d0d0;">
                 Linux was created in the early 1990s as a personal project by Linus Torvalds, a Computer Science student at the University of Helsinki, Finland. Dissatisfied with the limitations of the educational operating system Minix, developed by Andrew S. Tanenbaum, and curious about the core principles of operating systems, Linus set out to create his own kernel (the core component of an operating system).
@@ -106,7 +106,7 @@ class Utils:
                 </div>
                 <br />
                 <p>This email is sent from TorvaldsAPI!.</p>
-                <a href="https://www.exemplo.com">Repository link: </a>
+                <a href="https://github.com/FelipeFVieira/python-fastapi">Repository link </a>
                 <p>Give a Star to Help Me!</p>
                 <p>Thanks!</p>
                 <br />
@@ -133,7 +133,7 @@ class Utils:
         template_body: str = f"""
         <html>
             <body>
-                <h1>Hello!, {recipient_name}!</h1>
+                <h1>Hello, {recipient_name}!</h1>
                 <br />
                 <p style="padding: 12px; border-left: 4px solid #d0d0d0;">
                 Linus Benedict Torvalds was born on December 28, 1969, in Helsinki, Finland. He is globally renowned as the creator of the Linux kernel, one of the most significant open-source projects in history. Torvalds also played a pivotal role in the development of the Git version control system.
@@ -165,7 +165,7 @@ class Utils:
                 </div>
                 <br />
                 <p>This email is sent from TorvaldsAPI!.</p>
-                <a href="https://www.exemplo.com">Repository link: </a>
+                <a href="https://github.com/FelipeFVieira/python-fastapi">Repository link </a>
                 <p>Give a Star to Help Me!</p>
                 <p>Thanks!</p>
                 <br />
