@@ -3,7 +3,7 @@ WORKDIR /app
 
 COPY . /app
 
-RUN pip install --nocache-dir -r requirements.txt
+RUN pip install -r requirements.txt
 
 EXPOSE 8000
 
