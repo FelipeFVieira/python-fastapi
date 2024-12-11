@@ -1,8 +1,11 @@
 from fastapi import FastAPI, APIRouter
 
+# Initializing FastAPI
 app = FastAPI()
 
 items = {"1": "Item 1", "2": "Item 2", "3": "Item 3"}
+
+# Including endpoints to my app without prefix and router
 @app.get("/read")
 def read_items():
     return items
@@ -21,6 +24,9 @@ def update_item(item_id: str, item: dict):
 def delete_item(item_id: str):
     del items[item_id]
     return {"message": f"Item {item_id} deleted!"}
+
+# This code is a simple example how initialize FastAPI
+
 
 
 
