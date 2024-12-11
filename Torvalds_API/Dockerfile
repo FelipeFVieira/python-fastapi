@@ -27,7 +27,7 @@ WORKDIR /app
 COPY --from=build /app /app
 
 # Exponha a porta usada pela aplicação
-EXPOSE 8000
+EXPOSE 8080
 
 # Comando de inicialização para o Uvicorn
-ENTRYPOINT ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+ENTRYPOINT ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8080"]
